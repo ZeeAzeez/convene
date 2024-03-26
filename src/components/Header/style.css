@@ -118,6 +118,10 @@
 }
 
 @media only screen and (max-width: 800px){
+    .navbar-logo, .search-bar, .profile-container{
+        display: none;
+    }
+    
     .bottom-nav{
         display: block;
         position: fixed;

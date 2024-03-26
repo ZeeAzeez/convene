@@ -29,10 +29,11 @@ function Header(){
                     <div className='sign-up'>Sign up</div>
                 </div>
             </div>
+
             <MobileSearchBar />
            <SimpleBottomNavigation />
         </div>
-    )
+    );
 }
 
 
