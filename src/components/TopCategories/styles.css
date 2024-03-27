@@ -1,0 +1,34 @@
+.top-categories{
+    padding: 1rem 3rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow-x: auto;
+    width: 100%;
+    gap: 1.5rem;
+    
+}
+.categories-icon{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+    background-color: #b588c542;
+    border-radius: 0.5rem;
+    padding: 1rem;
+    font-size: 0.7rem;
+    font-weight: 600;
+    width: 6rem;
+    height: 4.5rem;
+    text-align: center;
+}
+
+.categories-icon:hover{
+    background-color: #ba70d554;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+.technology-icon{
+    color: rgba(0, 0, 255, 0.704);
+}

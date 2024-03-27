@@ -5,6 +5,9 @@
     padding: 1rem 3rem;
     position: sticky;
     top: 0;
+    border-bottom: 1px solid rgba(189, 188, 188, 0.788);
+    box-shadow: 5px 5px 5px rgba(5, 5, 5, 0.1);
+    height: 3rem;
 }
 .navbar-logo{
     height: 4rem;
@@ -121,7 +124,7 @@
     .navbar-logo, .search-bar, .profile-container{
         display: none;
     }
-    
+
     .bottom-nav{
         display: block;
         position: fixed;
