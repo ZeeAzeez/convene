@@ -12,14 +12,14 @@ import CasinoIcon from '@mui/icons-material/Casino';
 
 function TopCategories(){
     const categories = [
-        { label: 'Technology', icon: <SmartToyIcon className='technology-icon' /> },
-        { label: 'Travel & Outdoor', icon: <ConnectingAirportsIcon className='connecting-airports-icon' /> },
-        { label: 'Social Activities', icon: <Diversity1Icon className='social-activities-icon' /> },
-        { label: 'Hobbies and Passions', icon: <SailingIcon className='hobbies-icon' /> },
-        { label: 'Sports & Fitness', icon: <SportsSoccerIcon className='sports-icon' /> },
-        { label: 'Health & Wellness', icon: <SpaIcon className='health-icon' /> },
-        { label: 'Art & Culture', icon: <FaceRetouchingNaturalIcon className='arts-icon' /> },
-        { label: 'Games', icon: <CasinoIcon className='games-icon' /> }
+        { label: 'Technology', icon: <SmartToyIcon className='technology-icon' style={{color: "rgba(0, 0, 255, 0.704)"}} /> },
+        { label: 'Travel & Outdoor', icon: <ConnectingAirportsIcon className='connecting-airports-icon' style={{color: "green"}} /> },
+        { label: 'Social Activities', icon: <Diversity1Icon className='social-activities-icon' style={{color: "purple"}} /> },
+        { label: 'Hobbies and Passions', icon: <SailingIcon className='hobbies-icon' style={{color: "#D6B85A"}}/> },
+        { label: 'Sports & Fitness', icon: <SportsSoccerIcon className='sports-icon' style={{color: "#00563B"}}/> },
+        { label: 'Health & Wellness', icon: <SpaIcon className='health-icon' style={{color: "#AA0000"}}/> },
+        { label: 'Art & Culture', icon: <FaceRetouchingNaturalIcon className='arts-icon' style={{color: "#FF0090"}}/> },
+        { label: 'Games', icon: <CasinoIcon className='games-icon' style={{color: "#EF0107"}} /> }
     ];
 
     const [selectedFilter, setSelectedFilter] = useState(null);
@@ -27,7 +27,7 @@ function TopCategories(){
     return (
         <div className='top-categories'>
             {categories.map((category, index) => (
-                <div
+                <div 
                     key={index}
                     className={`categories-icon ${selectedFilter === index ? 'selected' : ''}`}
                     onClick={() => {
