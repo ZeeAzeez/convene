@@ -3,7 +3,9 @@ import "./styles.css";
 
 function Card(){
     return (
-        <div>Card Content</div>
+        <div>
+            <img src='' />
+        </div>
     )
 }
 

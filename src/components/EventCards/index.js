@@ -1,9 +1,12 @@
 import React from 'react';
 import "./styles.css";
+import Card from './card';
 
 function EventCards(){
     return (
-        <div>Event Cards</div>
+        <div className='event-cards-flex'>
+           <Card />
+        </div>
     )
 }
 
