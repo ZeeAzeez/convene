@@ -6,8 +6,16 @@
     overflow-x: auto;
     width: 100%;
     gap: 1.5rem;
-    
+    margin-bottom: 5rem;
 }
+.top-categories-header{
+    font-size: 1.3rem;
+    margin-left: 6.3rem;
+    margin-top: 3rem;
+    margin-bottom: 0;
+    font-weight: 600;
+}
+
 .categories-icon{
     display: flex;
     flex-direction: column;

@@ -25,7 +25,10 @@ function TopCategories(){
     const [selectedFilter, setSelectedFilter] = useState(null);
 
     return (
+        <div className='top-categories-container'>
+            <div className='top-categories-header'> Explore Popular Categories</div>
         <div className='top-categories'>
+            
             {categories.map((category, index) => (
                 <div 
                     key={index}
@@ -39,6 +42,7 @@ function TopCategories(){
                     {category.label}
                 </div>
             ))}
+        </div>
         </div>
     );
 }
