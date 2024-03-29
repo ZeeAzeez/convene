@@ -46,8 +46,10 @@
     align-items: flex-start;
 }
 .card-info h3{
-    font-size: 1.1rem;
+    font-size: 1rem;
     font-weight: 600;
+    word-wrap: break-word;
+    /* width: 200px; */
 }
 .host{
     display: flex;

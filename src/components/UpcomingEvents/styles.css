@@ -1,0 +1,70 @@
+.event-cards-flex{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 1rem 3rem;
+    gap: 1rem;
+}
+.events-near-lagos{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    font-size: 1.3rem;
+    margin-left:6.3rem;
+    margin-top: 3rem;
+    margin-bottom: 0;
+}
+.events-locations{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 0.8rem;
+}
+.view-all{
+    font-size: 0.8rem;
+    font-weight: 600;
+    color: var(--pink);
+    margin-right:7rem;
+    margin-top: 4rem;
+    margin-bottom: 0;
+    text-decoration: none;
+}
+.view-all:hover{
+    text-decoration: underline;
+    cursor: pointer;
+}
+.card-img{
+    width: 280px;
+    height: 150px;
+    object-fit: cover;
+    border-radius: 1rem;
+}
+.card-info{
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+.card-info h3{
+    font-size: 1rem;
+    font-weight: 600;
+    word-wrap: break-word;
+    /* width: 200px; */
+}
+.host{
+    display: flex;
+    align-items: center;
+    font-size: 0.8rem;
+    font-weight: 600;
+    color: var(--grey);
+}
+.card-dates{
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    margin: 0;
+}
+.card-dates p{
+    font-size: 0.7rem;
+    font-weight: 600;
+}
